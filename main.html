@@ -1,16 +1,40 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Accessible Portfolio</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <header role="heading" aria-level="1">
+    <h1 role="heading">My Portfolio</h1>
+  </header>
 
+  <nav role="navigation">
+    <ul role="list">
+      <li role="listitem"><a href="#section1">Section 1</a></li>
+      <li role="listitem"><a href="#section2">Section 2</a></li>
+      <li role="listitem"><a href="#section3">Section 3</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="section1">
+      <h2>Section 1</h2>
+      <img src="https://unsplash.com/photos/wQLAGv4_OYs" alt="Image 1" role="img">
+      <!-- Content for section 1 goes here -->
+    </section>
+
+    <section id="section2">
+      <h2>Section 2</h2>
+      <img src="https://unsplash.com/photos/XX0vmOvQ3GA" alt="Image 2" role="img">
+      <!-- Content for section 2 goes here -->
+    </section>
+
+    <section id="section3">
+      <h2>Section 3</h2>
+      <img src="https://unsplash.com/photos/mxIGWk111u0" alt="Image 3" role="img">
+      <!-- Content for section 3 goes here -->
+    </section>
+  </main>
 </body>
-
 </html>
